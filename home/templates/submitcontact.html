@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Received // AI_CORE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+        :root { --bg: #030303; --accent: #00f2ff; --dim: #333; --text: #e0e0e0; }
+        
+        body { 
+            background: var(--bg); 
+            color: var(--text); 
+            font-family: 'JetBrains Mono', monospace; 
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin: 0; 
+        }
+
+        .container { 
+            text-align: center; 
+            padding: 40px; 
+            border: 1px solid var(--dim); 
+            background: #080808; 
+            max-width: 500px; 
+        }
+
+        h2 { color: var(--accent); margin-top: 0; }
+        
+        .back-link { 
+            display: inline-block; 
+            margin-top: 20px; 
+            text-decoration: none; 
+            color: var(--accent); 
+            border: 1px solid var(--accent); 
+            padding: 10px 20px; 
+            transition: 0.3s;
+        }
+
+        .back-link:hover { background: var(--accent); color: var(--bg); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>./request_received</h2>
+        <p>Data transmission successful. Your message has been logged and will be processed shortly.</p>
+        <p style="font-size: 0.8rem; color: var(--dim);">[STATUS: 200 OK]</p>
+        
+        <a href="/" class="back-link">./return_to_root</a>
+    </div>
+
+</body>
+</html>

@@ -19,11 +19,16 @@ lib64/
 parts/
 sdist/
 var/
+Database/
+Database/chroma.sqlite3
 wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.env
+data/
+home/db.sqlite3
 MANIFEST
 
 # PyInstaller
