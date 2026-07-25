@@ -9,3 +9,5 @@ chromadb
 sentence-transformers
 django
 gunicorn
+langchain_huggingface
+langchain_groq
