@@ -11,3 +11,4 @@ django
 gunicorn
 langchain_huggingface
 langchain_groq
+langchain_chroma
