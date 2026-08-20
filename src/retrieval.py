@@ -76,7 +76,7 @@ class retrieval:
 
         try:
             llm=ChatGroq(
-                model="qwen/qwen3.6-27b",
+                model="openai/gpt-oss-120b",
                 temperature=0,
                 max_tokens=None,
                 reasoning_format='parsed',
