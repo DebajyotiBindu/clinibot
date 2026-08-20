@@ -1,1 +1,1 @@
-## CliniBot- Your virtual Assistant for helping you out with labels and dosages of various clinical drugs.
+## CliniBot- Your virtual Assistant for helping you out with labels and dosages of various clinical drugs of your choice.
