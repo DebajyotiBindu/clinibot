@@ -2,7 +2,7 @@ import os
 import numpy as np
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-from loading import loader
+from src.loading import loader
 
 class embedding:
     '''
@@ -43,7 +43,7 @@ class VectorStore:
     during the time of retrieval
     '''
 
-    def __init__(self,collection_name:str="my_resume"):
+    def __init__(self,collection_name:str="clinical_database"):
         self.collection_name=collection_name
 
         path_name=os.path.join('Database','vector_db')
@@ -78,6 +78,11 @@ if __name__=="__main__":
 
     print("Embedding started....")
     chunks=embedd_obj.reload()
+
+    if chunks:
+        print(f"Successfully loaded {len(chunks)} chunks.")
+        print(f"Sample Metadata Preview -> File: {chunks[0].metadata.get('file_name')} | Page: {chunks[0].metadata.get('page')}")
+
     model=embedd_obj.embedd()
 
     print("Vector Database Initialized")
