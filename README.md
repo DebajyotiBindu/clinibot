@@ -46,12 +46,12 @@ Our **Golden Set** is a curated list of question-answer pairs that test the "Fou
 
 ### Evaluation results
 <img width="648" height="320" alt="Screenshot 2026-08-20 191541" src="https://github.com/user-attachments/assets/78ea7262-f6bd-4791-b72c-53702ecb1df9" />
-<img width="631" height="315" alt="Screenshot 2026-08-20 191554" src="https://github.com/user-attachments/assets/c5aefb2f-cd37-45a6-bd17-dd1bda849cd4" />
-<img width="654" height="332" alt="Screenshot 2026-08-20 191703" src="https://github.com/user-attachments/assets/8ab36606-3cce-41f7-8060-167985706475" />
-<img width="642" height="324" alt="Screenshot 2026-08-20 191714" src="https://github.com/user-attachments/assets/baf138af-fc3b-47f9-a5bb-4f9596b22ed0" />
-<img width="502" height="306" alt="Screenshot 2026-08-20 191728" src="https://github.com/user-attachments/assets/37203b47-6fd5-4d10-9b4b-d11cf375a5fc" />
-<img width="589" height="386" alt="Screenshot 2026-08-20 194954" src="https://github.com/user-attachments/assets/9cf8fb76-d9f9-463b-90c0-0709c40686e1" />
-<img width="741" height="281" alt="Screenshot 2026-08-21 150319" src="https://github.com/user-attachments/assets/68b47e2c-8f2c-421d-8852-0a3f617076c4" />
+<img width="1031" height="315" alt="Screenshot 2026-08-20 191554" src="https://github.com/user-attachments/assets/c5aefb2f-cd37-45a6-bd17-dd1bda849cd4" />
+<img width="1054" height="332" alt="Screenshot 2026-08-20 191703" src="https://github.com/user-attachments/assets/8ab36606-3cce-41f7-8060-167985706475" />
+<img width="1042" height="324" alt="Screenshot 2026-08-20 191714" src="https://github.com/user-attachments/assets/baf138af-fc3b-47f9-a5bb-4f9596b22ed0" />
+<img width="1002" height="306" alt="Screenshot 2026-08-20 191728" src="https://github.com/user-attachments/assets/37203b47-6fd5-4d10-9b4b-d11cf375a5fc" />
+<img width="1089" height="386" alt="Screenshot 2026-08-20 194954" src="https://github.com/user-attachments/assets/9cf8fb76-d9f9-463b-90c0-0709c40686e1" />
+<img width="1041" height="281" alt="Screenshot 2026-08-21 150319" src="https://github.com/user-attachments/assets/68b47e2c-8f2c-421d-8852-0a3f617076c4" />
 
 
 ## 7. Getting Started
