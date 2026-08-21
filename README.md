@@ -17,19 +17,25 @@ In clinical settings, patient leaflets (Product Labels) are dense, legalistic, a
 | **Vector DB** | ChromaDB | Efficient semantic indexing and similarity retrieval. |
 | **Evaluation** | Pydantic / LLM-as-a-Judge | Provides programmatic, structured validation of AI safety. |
 
-## 4. Project Scripts Description
+## 4. Architectural Workflow
+<img width="1027" height="631" alt="Screenshot 2026-08-21 164310" src="https://github.com/user-attachments/assets/1eb5f43f-5c43-4109-97c3-c52c3d1e491b" />
+
+## 5. Folder Structure
+<img width="352" height="440" alt="image" src="https://github.com/user-attachments/assets/9c298d35-ff89-4e92-bb91-b67689d91c3c" />
+
+## 5. Project Scripts Description
 *   **`src/loading.py`**: Handles raw text extraction from PDF labels, ensuring document structure and metadata (like page numbers) are preserved for citations.
 *   **`src/embedding.py`**: Converts clinical text into semantic vector representations using state-of-the-art embedding models, optimized for medical terminology.
 *   **`src/retrieval.py`**: The orchestration layer. It manages the semantic search against the clinical vector database and retrieves context-relevant chunks.
 *   **`evaluation.py`**: The evaluating layer. It measures and compares the performance of various instance of models under different parameters and setups.
 *   **`quality_check.py`**: Our automated evaluation suite. It executes "Golden Set" tests, forces structured JSON validation, and generates performance reports.
 
-## 5. Evaluation Framework
+## 6. Evaluation Framework
 We validate system performance using an **LLM-as-a-Judge** framework based on three clinical benchmarks:
 *   **Context Precision:** Did we retrieve only relevant clinical sections?
 *   **Context Recall:** Did we retrieve all information necessary to answer the prompt?
 *   **Groundedness:** Does the model's answer stay strictly within the provided document, or is it hallucinating?
-*   **Query Latency:** Is the model fast enough to respond to the user's query within 3 seconds time frame limit? 
+*   **Query Latency:** Is the model fast enough to respond to the user's query within 3 seconds time frame limit?
 
 ### The Golden Set
 Our **Golden Set** is a curated list of question-answer pairs that test the "Four Pillars of Clinical RAG":
@@ -38,7 +44,17 @@ Our **Golden Set** is a curated list of question-answer pairs that test the "Fou
 3.  **Indications:** Scoping (What the drug actually treats).
 4.  **Negative Constraints:** Adversarial handling (e.g., "Can I use this for a broken arm?").
 
-## 6. Getting Started
+### Evaluation results
+<img width="648" height="320" alt="Screenshot 2026-08-20 191541" src="https://github.com/user-attachments/assets/78ea7262-f6bd-4791-b72c-53702ecb1df9" />
+<img width="631" height="315" alt="Screenshot 2026-08-20 191554" src="https://github.com/user-attachments/assets/c5aefb2f-cd37-45a6-bd17-dd1bda849cd4" />
+<img width="654" height="332" alt="Screenshot 2026-08-20 191703" src="https://github.com/user-attachments/assets/8ab36606-3cce-41f7-8060-167985706475" />
+<img width="642" height="324" alt="Screenshot 2026-08-20 191714" src="https://github.com/user-attachments/assets/baf138af-fc3b-47f9-a5bb-4f9596b22ed0" />
+<img width="502" height="306" alt="Screenshot 2026-08-20 191728" src="https://github.com/user-attachments/assets/37203b47-6fd5-4d10-9b4b-d11cf375a5fc" />
+<img width="589" height="386" alt="Screenshot 2026-08-20 194954" src="https://github.com/user-attachments/assets/9cf8fb76-d9f9-463b-90c0-0709c40686e1" />
+<img width="741" height="281" alt="Screenshot 2026-08-21 150319" src="https://github.com/user-attachments/assets/68b47e2c-8f2c-421d-8852-0a3f617076c4" />
+
+
+## 7. Getting Started
 ### Prerequisites
 *   Python 3.10+
 *   Groq API Key
