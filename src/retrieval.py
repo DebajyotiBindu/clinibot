@@ -9,6 +9,7 @@ import sqlite3
 from langchain_community.chat_message_histories import SQLChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
+from langsmith import traceable
 
 load_dotenv()
 
@@ -35,7 +36,7 @@ class retrieval:
         return input
 
     #Searches the vector database for similarity score between user query and existing vectors
-    def search(self,input:str,k:int=5,collection_name:str="clinical_database"):
+    def search(self,input:str,k:int=7,collection_name:str="clinical_database"):
         try:
             vector_db=Chroma(
                 collection_name=collection_name,
@@ -68,6 +69,8 @@ class retrieval:
         )
 
     #Initializes the LLM for generation (for testing)
+    
+    @traceable
     def model_initialize(self,input_text:str,session_id:str):
         load_dotenv()
         if "GROQ_API_KEY" not in os.environ:

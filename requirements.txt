@@ -15,5 +15,4 @@ langchain_groq
 langchain_chroma
 langchain_docling
 streamlit
-datasets
-ragas
+langsmith
