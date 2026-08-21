@@ -67,7 +67,7 @@ Our **Golden Set** is a curated list of question-answer pairs that test the "Fou
     ```bash
     streamlit run app.py
     ```
-4. **Run CliniBot**:
+4. **Run Evaluation**:
     ```bash
     python quality_check.py
     ```
