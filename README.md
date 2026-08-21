@@ -63,7 +63,11 @@ Our **Golden Set** is a curated list of question-answer pairs that test the "Fou
 ### Running the Project
 1.  **Environment Setup**: Create a `.env` file and add your `GROQ_API_KEY`.
 2.  **Ingestion**: Ensure your PDF label is in the source directory.
-3.  **Run Evaluation**:
+3.  **Run CliniBot**:
+    ```bash
+    streamlit run app.py
+    ```
+4. **Run CliniBot**:
     ```bash
     python quality_check.py
     ```
