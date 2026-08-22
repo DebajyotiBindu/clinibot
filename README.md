@@ -18,7 +18,7 @@ In clinical settings, patient leaflets (Product Labels) are dense, legalistic, a
 | **Evaluation** | Pydantic / LLM-as-a-Judge | Provides programmatic, structured validation of AI safety. |
 
 ## 4. Architectural Workflow
-<img width="1027" height="631" alt="Screenshot 2026-08-21 164310" src="https://github.com/user-attachments/assets/1eb5f43f-5c43-4109-97c3-c52c3d1e491b" />
+<img width="1027" height="631" alt="architectural workflow" src="https://github.com/user-attachments/assets/b2a790e3-902d-4c3b-86be-bdaa09abfb75" />
 
 ## 5. Folder Structure
 <img width="352" height="440" alt="image" src="https://github.com/user-attachments/assets/9c298d35-ff89-4e92-bb91-b67689d91c3c" />
@@ -41,11 +41,12 @@ We validate system performance using an LLM-as-a-Judge framework based on six co
 * **Query Latency:** Is the model fast enough to respond to the user's query efficiently (averaging ~3.5 seconds end-to-end)?
 
 ### The Golden Set
-Our **Golden Set** is a curated list of question-answer pairs that test the "Four Pillars of Clinical RAG":
-1.  **Dosing:** Accuracy of numerical limits (e.g., 1200mg/24h).
-2.  **Contraindications:** Safety-critical logic (e.g., aspirin allergy).
-3.  **Indications:** Scoping (What the drug actually treats).
-4.  **Negative Constraints:** Adversarial handling (e.g., "Can I use this for a broken arm?").
+Our Golden Set is a curated benchmark of 11 diverse, high-scrutiny question-answer pairs designed to test the "Four Pillars of Clinical RAG" alongside rigorous adversarial constraints:
+
+* **Dosing & Numerics:** Verifying accuracy of numerical thresholds and limits (e.g., maximum recommended daily adult dosage of 1,200 mg).
+* **Contraindications:** Testing safety-critical filtering and pre-existing condition logic (e.g., aspirin sensitivity, history of stomach ulcers, or high blood pressure).
+* **Indications & Scoping:** Ensuring precise boundary mapping of what the drug actually treats (e.g., temporary relief of minor aches vs. permanent chronic care).
+* **Adversarial & Negative Constraints:** Stress-testing the model against out-of-scope scenarios, toxic mixtures, and hallucinations (e.g., treating broken bones, pediatric administration in baby formula, combining with alcohol, or off-label permanence claims).
 
 ### App Interface
 <img width="1401" height="686" alt="Screenshot 2026-08-20 130637" src="https://github.com/user-attachments/assets/94921a4e-772f-4eec-b54d-7494bb79df18" />
