@@ -54,8 +54,7 @@ Our **Golden Set** is a curated list of question-answer pairs that test the "Fou
 <img width="1042" height="324" alt="Screenshot 2026-08-20 191714" src="https://github.com/user-attachments/assets/baf138af-fc3b-47f9-a5bb-4f9596b22ed0" />
 <img width="1002" height="306" alt="Screenshot 2026-08-20 191728" src="https://github.com/user-attachments/assets/37203b47-6fd5-4d10-9b4b-d11cf375a5fc" />
 <img width="1089" height="386" alt="Screenshot 2026-08-20 194954" src="https://github.com/user-attachments/assets/9cf8fb76-d9f9-463b-90c0-0709c40686e1" />
-<img width="1090" height="307" alt="Screenshot 2026-08-22 090728" src="https://github.com/user-attachments/assets/85e229cc-9b96-4d51-8109-dee0b30de003" />
-
+<img width="1008" height="350" alt="image" src="https://github.com/user-attachments/assets/27e8d39b-cdb4-44d4-955d-bb65286cc412" />
 
 ## 7. Getting Started
 ### Prerequisites
