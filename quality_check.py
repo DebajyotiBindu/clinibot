@@ -41,6 +41,7 @@ evaluation_dataset = [
 ]
 
 class EvalSchema(BaseModel):
+    answer_relevancy: float = Field(description="Score 0.0 to 1.0")
     context_precision: float = Field(description="Score 0.0 to 1.0")
     context_recall: float = Field(description="Score 0.0 to 1.0")
     groundedness: float = Field(description="Score 0.0 to 1.0")
@@ -78,9 +79,10 @@ def evaluate_pipeline():
         Answer: {full_response}
         Ground Truth: {gt}
         
-        Provide scores for context precision, recall, and groundedness."""
+        Provide scores for answer relevancy, context precision, recall, and groundedness.
+        Keep the 'reasoning' field under 30 words."""
 
-        metrics = {"context_precision": 0.0, "context_recall": 0.0, "groundedness": 0.0, "reasoning": "Failed to generate evaluation."}
+        metrics = {"answer_relevancy":0.0,"context_precision": 0.0, "context_recall": 0.0, "groundedness": 0.0, "reasoning": "Failed to generate evaluation."}
 
         try:
             metrics_obj = structured_llm.invoke(evaluation_prompt)
@@ -100,7 +102,7 @@ def evaluate_pipeline():
     df = pd.DataFrame(results)
     df.to_csv("manual_evaluation_report.csv", index=False)
     print("\n--- Final Results ---")
-    print(df[["question", "context_precision", "context_recall", "groundedness"]])
+    print(df[["question", "answer_relevancy", "context_precision", "context_recall", "groundedness"]])
     print("\nDetailed report saved to manual_evaluation_report.csv")
 
 if __name__ == "__main__":
