@@ -31,11 +31,14 @@ In clinical settings, patient leaflets (Product Labels) are dense, legalistic, a
 *   **`quality_check.py`**: Our automated evaluation suite. It executes "Golden Set" tests, forces structured JSON validation, and generates performance reports.
 
 ## 6. Evaluation Framework
-We validate system performance using an **LLM-as-a-Judge** framework based on three clinical benchmarks:
-*   **Context Precision:** Did we retrieve only relevant clinical sections?
-*   **Context Recall:** Did we retrieve all information necessary to answer the prompt?
-*   **Groundedness:** Does the model's answer stay strictly within the provided document, or is it hallucinating?
-*   **Query Latency:** Is the model fast enough to respond to the user's query within 3 seconds time frame limit?
+We validate system performance using an LLM-as-a-Judge framework based on six core clinical and retrieval benchmarks:
+
+* **Answer Relevancy:** Does the generated response directly address the user's specific clinical query without unnecessary or off-topic information?
+* **Context Precision:** Did we retrieve only relevant clinical sections, avoiding noise from extraneous text?
+* **Context Recall:** Did we retrieve all information necessary from the knowledge base to completely answer the prompt?
+* **Groundedness:** Does the model's answer stay strictly within the provided document context, ensuring zero medical hallucinations?
+* **Citation Accuracy:** Are the source references and page citations correctly mapped and true to the underlying document context?
+* **Query Latency:** Is the model fast enough to respond to the user's query efficiently (averaging ~3.5 seconds end-to-end)?
 
 ### The Golden Set
 Our **Golden Set** is a curated list of question-answer pairs that test the "Four Pillars of Clinical RAG":
