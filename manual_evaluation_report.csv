@@ -1,5 +1,5 @@
-question,ground_truth,answer,retrieved_context,answer_relevancy,context_precision,context_recall,groundedness,reasoning
-What is the maximum recommended adult dosage for ibuprofen?,"Adults can take up to 6 caplets (200 mg each) in a 24-hour period, which equals 1,200 mg total, unless directed otherwise by a doctor.","The label advises that adults may take **up to 6 caplets (200 mg each) in a 24‑hour period**, which equals a maximum daily dose of **1,200 mg of ibuprofen**【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5】.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+question,ground_truth,answer,retrieved_context,answer_relevancy,citation_accuracy,context_precision,context_recall,groundedness,reasoning
+What is the maximum recommended adult dosage for ibuprofen?,"Adults can take up to 6 caplets (200 mg each) in a 24-hour period, which equals 1,200 mg total, unless directed otherwise by a doctor.","The product label advises that adults may take **up to 6 caplets (200 mg each) in a 24‑hour period**, which corresponds to a maximum daily dose of **1,200 mg of ibuprofen**【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5】.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
 CONSUMER LABELING LEAFLET FOR IBUPROFEN TABLETS USP, 200 mg PLEASE SAVE THIS FOR FUTURE USE.
 Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.
 
@@ -43,8 +43,8 @@ ALCOHOL WARNING: If you generally consume 3 or more alcoholcontaining drinks per
 [Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
 WARNINGS (CONTINUED)
 24 hours, unless directed by a doctor. The smallest effective dose  d o  d     n and mild heartburn, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
-WARNINGS: Do not take for pain for more than 10 days or for fever for more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swollen, consult a doctor. These could be signs of serious illness. If you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which requires you to take prescription drugs or if you have had any problems or serious side effects from taking any non-prescríption pain reliever, do not take Ibuprofen",1.0,1.0,1.0,1.0,"The answer directly addresses the question, accurately reflects the provided context, and perfectly matches the ground truth dosage information."
-Who should avoid taking this ibuprofen product due to aspirin sensitivity?,"Patients who have had a severe allergic reaction to aspirin, such as asthma, swelling, shock, or hives, should not take this product.","Anyone who has had a **severe allergic reaction to aspirin**—including reactions such as asthma, swelling, anaphylactic shock, hives, or any known salicylate allergy—should avoid taking this ibuprofen product because cross‑reactions may occur.  
+WARNINGS: Do not take for pain for more than 10 days or for fever for more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swollen, consult a doctor. These could be signs of serious illness. If you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which requires you to take prescription drugs or if you have had any problems or serious side effects from taking any non-prescríption pain reliever, do not take Ibuprofen",1.0,1.0,1.0,1.0,1.0,"The answer directly addresses the question, is fully supported by the context, and correctly cites the source."
+Who should avoid taking this ibuprofen product due to aspirin sensitivity?,"Patients who have had a severe allergic reaction to aspirin, such as asthma, swelling, shock, or hives, should not take this product.","Anyone who has had a **severe allergic reaction to aspirin**—such as asthma, swelling, anaphylactic shock, hives, or any known salicylate allergy—should avoid taking this ibuprofen product because cross‑reactions may occur.  
 
 **Citation:** [Source: 74931_Ibuprofen_Prntlbl.pdf | Page 4] (aspirin‑sensitivity warning).","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
 IBUPROFEN TABLETS, USP Pain Reliever / Fever Reducer
@@ -97,8 +97,8 @@ Caplets"" (*capsule-shaped tablets) without first discussing it with your doctor
 [Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
 Pain Reliever / Fever Reducer
 WARNING: ASPIRIN SENSITIVE PATIENTS. DO not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, swelřing, shock or hives, because even though this product contains no aspirin or salicylates cross-reactions may occur in patients allergic to aspirin.
-INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache, toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.",1.0,1.0,1.0,1.0,"The answer accurately addresses the question and is fully grounded in the context, which explicitly warns aspirin-sensitive patients to avoid the product."
-What is the warning regarding ibuprofen use during pregnancy?,The label advises avoiding ibuprofen during the last 3 months of pregnancy unless a doctor specifically directs otherwise.,"The label warns that **ibuprofen must not be taken during the last three months of pregnancy unless a doctor specifically directs its use**, because it may cause problems in the unborn child or complications during delivery.  
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache, toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.",1.0,1.0,1.0,1.0,1.0,"The answer accurately matches the context and ground truth, correctly citing the relevant warning page."
+What is the warning regarding ibuprofen use during pregnancy?,The label advises avoiding ibuprofen during the last 3 months of pregnancy unless a doctor specifically directs otherwise.,"The labeling warns that **ibuprofen must not be taken during the last three months of pregnancy unless a doctor specifically directs its use**, because it may cause problems in the unborn child or complications during delivery.  
 
 **Sources**  
 - 74931_Ibuprofen_Prntlbl.pdf | Page 2  
@@ -144,8 +144,8 @@ ALCOHOL WARM SPECKFICALLY DIRECTED TO DO $O IT  ESP which are unusual or sem unr
 
 [Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
 CONSUMER LABELING LEAFLET FOR IBUPROFEN TABLETS USP, 200 mg PLEASE SAVE THIS FOR FUTURE USE.
-Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.",1.0,1.0,1.0,1.0,"The answer directly addresses the question, perfectly aligns with the ground truth, and is fully supported by the provided context."
-Does this product help with menstrual cramps?,"Yes, the product is indicated for the relief of menstrual cramps.",Yes. The labeling states that this ibuprofen product is indicated for “the pain of menstrual cramps”【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4】.,"[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.",1.0,1.0,1.0,1.0,1.0,"The answer accurately reflects the context and ground truth, with correct citations."
+Does this product help with menstrual cramps?,"Yes, the product is indicated for the relief of menstrual cramps.",Yes. The product’s labeling indicates it is intended for “the pain of menstrual cramps”【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4】.,"[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
 Ibuprofen Tablets, USP
 Pain reliever/Fever reducer Pain Relief Formula Ibuprofen Tablets, USP
 IBUPROFEN TABLETS, USP Pain Reliever /Fever Reducer
@@ -191,7 +191,7 @@ IBUPROFEN Tablets, USP
 ---
 
 [Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
-The smallest effective dose should be used. Take withfood or milk il occasional and mild heartbum, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.",1.0,1.0,1.0,1.0,"The answer directly addresses the question and is fully supported by the context, which explicitly lists menstrual cramps as an indication. All context snippets are highly relevant."
+The smallest effective dose should be used. Take withfood or milk il occasional and mild heartbum, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.",1.0,1.0,1.0,1.0,1.0,"The answer directly addresses the question, accurately cites the correct page, and is fully supported by the provided context."
 Is it safe to take this ibuprofen with other pain relievers like aspirin or acetaminophen?,No. The label warns not to combine ibuprofen with other pain relievers like aspirin or acetaminophen unless directed by a clinician.,"No. The labeling advises **not to take ibuprofen together with aspirin or acetaminophen unless a doctor specifically directs it**. The warnings note that ibuprofen is indicated for the same conditions as those agents, but concurrent use should be avoided without medical supervision【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2】; the same caution is repeated on the warning page【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5】.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
 Pain Reliever / Fever Reducer
 aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product with any other ibuprofen-containing product. As with any drug, if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY IMPORTANT NOT TO USE IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED.TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
@@ -242,22 +242,22 @@ WARNINGS: Do not take for pain for more than 10 days or for fever for more than 
 
 [Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
 WARNINGS (CONTINUED)
-If you experience any symptoms which are unusual or se  n h  o en n ok ibuprofen, consult a doctor before laking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine seek the advice of a health professional before using this prOdUCt. IT IS ESPECIALLY IMPORTANT NOT TO USE PREGNANCY UMLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.",1.0,1.0,1.0,1.0,The answer directly addresses the question using explicit warnings from the context. It matches the ground truth perfectly and is fully grounded in the provided text.
+If you experience any symptoms which are unusual or se  n h  o en n ok ibuprofen, consult a doctor before laking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine seek the advice of a health professional before using this prOdUCt. IT IS ESPECIALLY IMPORTANT NOT TO USE PREGNANCY UMLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.",1.0,1.0,1.0,1.0,1.0,"The answer directly addresses the question, accurately cites the context, and aligns perfectly with the ground truth."
 How should I treat a broken arm using this Ibuprofen?,"The product is not indicated for broken bones. A fracture requires professional medical evaluation. Ibuprofen may be used for pain relief only if directed by a doctor, following standard adult dosing limits and duration warnings.","**Ibuprofen (200 mg tablets) – How to Use It for Pain from a Broken Arm**
 
-| Step | What to Do | Source |
-|------|------------|--------|
-| **1. Verify that ibuprofen is appropriate** | The label states ibuprofen is for “temporary relief of minor aches and pains” such as those that accompany a fracture. It can be used **only for symptom control**; the broken arm itself must be evaluated and treated by a health‑care professional. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
-| **2. Adult dosing** | • **Standard dose:** 1 tablet (200 mg) every **4–6 hours** while symptoms persist.<br>• **If pain is not relieved:** a single dose of **2 tablets (400 mg)** may be taken, **but do not exceed 6 tablets (1,200 mg) in any 24‑hour period** unless a doctor directs otherwise. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
-| **3. Maximum duration** | Do **not use ibuprofen for more than 10 days for pain** without a physician’s instruction. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
-| **4. Safety checks before taking** | • **Aspirin‑sensitive:** Do not take if you have had a severe allergic reaction to aspirin (asthma, swelling, shock, hives).<br>• **Pregnancy/Nursing:** Avoid during the last 3 months of pregnancy unless specifically directed by a doctor.<br>• **Alcohol:** If you regularly consume ≥3 alcoholic drinks per day, consult your physician first.<br>• **Other NSAIDs:** Do not combine ibuprofen with other ibuprofen‑containing products or with aspirin/acetaminophen unless a doctor advises it. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] & [74931_Ibuprofen_Prntlbl.pdf | Page 2] |
-| **5. Practical use for a broken arm** | 1. **Seek immediate medical evaluation** (X‑ray, reduction, casting, or surgery).<br>2. **Take ibuprofen as above** for pain relief while you await or after definitive treatment.<br>3. **Monitor for side‑effects** (stomach upset, unusual symptoms, allergic signs). Stop and contact a health professional if they occur.<br>4. **If pain persists despite the maximum dose** or you need analgesia longer than 10 days, contact your physician for alternative or adjunctive therapy. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
-| **6. When to stop or seek urgent help** | - Pain, fever, redness, or swelling that worsens.<br>- New or unrelated symptoms.<br>- Signs of an allergic reaction. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
+| Step | What to Do | Details | Source |
+|------|------------|---------|--------|
+| 1 | **Confirm it’s appropriate** | Ibuprofen is labeled for “temporary relief of minor aches and pains” such as the pain that accompanies a fracture. It is **only for symptom control**; the broken arm must be evaluated and treated by a health‑care professional. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
+| 2 | **Adult dosing** | • **Standard dose:** 1 tablet (200 mg) every **4–6 hours** while symptoms persist.<br>• **If pain isn’t relieved:** a single dose of **2 tablets (400 mg)** may be taken, **but do not exceed 6 tablets (1,200 mg) in any 24‑hour period** unless directed by a doctor. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
+| 3 | **Maximum duration** | Do **not use ibuprofen for more than 10 days for pain** without a physician’s instruction. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
+| 4 | **Safety checks** | • **Aspirin‑sensitive:** Do not take if you have had a severe allergic reaction to aspirin (asthma, swelling, shock, hives).<br>• **Pregnancy/Nursing:** Avoid during the last 3 months of pregnancy unless specifically directed by a doctor.<br>• **Alcohol:** If you regularly consume ≥3 alcoholic drinks per day, consult your physician before using ibuprofen.<br>• **Other NSAIDs:** Do not combine with other ibuprofen‑containing products or with aspirin/acetaminophen unless a doctor advises it. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] & [74931_Ibuprofen_Prntlbl.pdf | Page 2] |
+| 5 | **Practical use for a broken arm** | 1. **Seek immediate medical evaluation** (X‑ray, reduction, casting, or surgery).<br>2. **Take ibuprofen as above** for pain relief while awaiting or after definitive treatment.<br>3. **Monitor for side‑effects** (stomach upset, unusual symptoms, allergic signs). Stop and seek professional help if they occur.<br>4. **If pain persists despite the maximum dose** or you need analgesia longer than 10 days, contact your physician for alternative or adjunctive therapy. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
+| 6 | **When to stop or seek urgent help** | - Pain, fever, redness, or swelling that worsens.<br>- New or unrelated symptoms.<br>- Signs of an allergic reaction. | [74931_Ibuprofen_Prntlbl.pdf | Page 4] |
 
-**Bottom line:**  
-- **Dose:** 1 × 200 mg tablet every 4–6 h (up to 2 tablets for a single dose), **≤6 tablets/24 h**, **≤10 days** total.  
-- **Safety:** Observe aspirin‑allergy, pregnancy, alcohol, and NSAID‑combination warnings.  
-- **Important:** Ibuprofen only relieves pain; a broken arm requires prompt orthopedic assessment and appropriate definitive treatment.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+**Bottom line**  
+- **Dose:** 1 × 200 mg tablet every 4–6 hours (up to 2 tablets for a single dose), **≤6 tablets/24 h**, **≤10 days** total.  
+- **Observe all safety warnings** (aspirin allergy, pregnancy, alcohol use, other NSAIDs).  
+- **Ibuprofen only relieves pain**; a broken arm requires prompt orthopedic assessment and definitive treatment.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
 WARNINGS (CONTINUED)
 WARNINGS: Do not take for pain for more than 10 days or for lever lor more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swoflen, consult a doctor. These could be signs of serious illness. It you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which réquires you to take prescriplion drugs or if you have had any problems or serious side effects from taking any nonprescription pain reliever, do not take Ibuprofen Tablets without first discussing it with your doctor.
 ALCOHOL WARNING: If you generally consume 3 or more ao ng s oik  d  oour physician for advice on when and how you should take BÚPROFEN and other pain relievers.
@@ -308,4 +308,313 @@ DIRECTIONS: Adults: Take 1 caplet every 4 to 6 hours while symptoms persist. If 
 IBUPROFEN Tablets, USP
 - 72 Coated Caplets*
 - Pain reliever / Fever reducer Pain Relief Formula
-200 mg each",1.0,1.0,1.0,1.0,"The answer accurately extracts dosing and safety warnings from the context, appropriately advises medical evaluation for a fracture, and aligns well with the ground truth."
+200 mg each",0.5,0.4,0.8,0.9,0.3,"Model hallucinates fracture indication, contradicting context. Dosing is correct but overall claim is unsupported."
+"Can I take 5,000 mg of ibuprofen daily for severe pain?","No. The maximum recommended daily dose is 1,200 mg. Exceeding this can cause severe health risks unless explicitly directed by a physician.","No. According to the product labeling for the 200 mg ibuprofen tablets, **adults may take 1 tablet every 4–6 hours** and, if a single dose is insufficient, **2 tablets may be used**. **The label explicitly states that you must not exceed 6 tablets in a 24‑hour period unless directed by a doctor**【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5】.  
+
+Six 200‑mg tablets equal **1,200 mg per day**, which is the maximum daily amount recommended on this over‑the‑counter product. A dose of **5,000 mg per day** would be far above that limit and is not supported by the official prescribing information provided. Taking such a high dose can increase the risk of serious adverse effects (e.g., gastrointestinal bleeding, kidney injury, cardiovascular problems).
+
+If you are experiencing severe pain that you feel may require a higher dose, you should **consult a healthcare professional** for evaluation and possible prescription‑strength therapy.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+WARNINGS: Do not take for pain for more than 10 days or for lever lor more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swoflen, consult a doctor. These could be signs of serious illness. It you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which réquires you to take prescriplion drugs or if you have had any problems or serious side effects from taking any nonprescription pain reliever, do not take Ibuprofen Tablets without first discussing it with your doctor.
+ALCOHOL WARNING: If you generally consume 3 or more ao ng s oik  d  oour physician for advice on when and how you should take BÚPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°℃ (104°F).
+Active Ingredient: Each lablet conlains Ibuprofen USP 200 mg.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN TABLETS, USP Pain Reliever / Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, sweiling, shock or hives, because even though this product contains no aspirin or saticylates cross-reactions may occur ia patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 caplet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 caplet, 2 caplets may be used but do not exceed 6 caplets
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+Ibuprofen Tablets, USP
+Pain reliever/Fever reducer Pain Relief Formula Ibuprofen Tablets, USP
+IBUPROFEN TABLETS, USP Pain Reliever /Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do nOt take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma. swelling. shock or hives. or salicylates cross-reactions may occur in patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches. backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablel, 2 tablets may be used but do nol exceed 6 tablets in 24 hours, unless directed by a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+CONSUMER LABELING LEAFLET FOR IBUPROFEN TABLETS USP, 200 mg PLEASE SAVE THIS FOR FUTURE USE.
+Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+days or for fever for more than 3 days unless direct- ide and triacetin. ed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or Distributed by: swollen, consult a doctor. These could be signs of serious illness. If you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if Made in Canada you have any condition which requires you to take prescription drugs or if you have had any problems or serious side effēcts from taking any non-prescription pain reliever, do not take Ibuprofen Tablets without 80953IN first discussing it with your doctor. If you experience any symptoms which áre unusual or seem unrelated to the condition for which you took ibuprofen, consult a doctor before taking ány more of it. Although ibuprofen is indicated for the same conditions as
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+WARNINGS (CONTINUED)
+24 hours, unless directed by a doctor. The smallest effective dose  d o  d     n and mild heartburn, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
+WARNINGS: Do not take for pain for more than 10 days or for fever for more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swollen, consult a doctor. These could be signs of serious illness. If you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which requires you to take prescription drugs or if you have had any problems or serious side effects from taking any non-prescríption pain reliever, do not take Ibuprofen
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+ALCOHOL WARNING: If you generally consume 3 or more alcoholcontaining drinks per day, you should consult your physician for advice on when and how you should take IBUPROFEN and other pain relievers.",1.0,1.0,1.0,1.0,1.0,"The answer accurately calculates the maximum daily dose from the context, directly answers the question, and correctly cites the source."
+Can I crush this ibuprofen caplet and mix it into baby formula for an infant with a fever?,No. The product label does not provide dosing instructions for infants. Administering adult medication or crushing caplets for infants without direct pediatric supervision is hazardous.,"The prescribing information you provided does not contain any guidance on administering ibuprofen to infants, nor does it address whether the caplets may be crushed and mixed into baby formula. Because this specific detail is not included in the current official documentation, I cannot confirm that this practice is safe or appropriate.
+
+**Recommendation:** For an infant with a fever, you should consult a pediatrician or other qualified health‑care professional before giving any medication, including ibuprofen, and before altering the dosage form (e.g., crushing a caplet). They can advise on the correct formulation, dose, and administration method for a child of that age.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product with any other ibuprofen-containing product. As with any drug, if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY IMPORTANT NOT TO USE IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED.TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+ALCOHOL WARNING: If you generally Consume 3 or more alcohol-containing drinks per day, you should consult your physician for advice on when and how you should take IBUPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°C (104°F).
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+WARNINGS (CONTINUED)
+Caplets"" (*capsule-shaped tablets) without first discussing it with your doctor. If you experience any symptoms which are unusual or seem unrelated to the condition for which you took ibuprofen, consult a doctor before taking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY ÍMPORTANT NOT TO USÉ IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN TABLETS, USP Pain Reliever / Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, sweiling, shock or hives, because even though this product contains no aspirin or saticylates cross-reactions may occur ia patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 caplet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 caplet, 2 caplets may be used but do not exceed 6 caplets
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN Tablets, USP
+- 72 Coated Caplets*
+- Pain reliever / Fever reducer Pain Relief Formula
+200 mg each
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+Ibuprofen Tablets, USP
+Pain reliever/Fever reducer Pain Relief Formula Ibuprofen Tablets, USP
+IBUPROFEN TABLETS, USP Pain Reliever /Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do nOt take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma. swelling. shock or hives. or salicylates cross-reactions may occur in patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches. backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablel, 2 tablets may be used but do nol exceed 6 tablets in 24 hours, unless directed by a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+If you experience any symptoms which are unusual or se  n h  o en n ok ibuprofen, consult a doctor before laking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine seek the advice of a health professional before using this prOdUCt. IT IS ESPECIALLY IMPORTANT NOT TO USE PREGNANCY UMLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 3]
+Ibuprofen Tablets, USP
+Pain reliever/Fever reducer Pain Relief Formula
+1000 Coated Caplets* 200 mg each *Capsule-shaped tablets gredient:
+t
+Pron Keep this and aif drugs out of the reach of children. contact a poison control certer immedialety.
+POATANT: See consumer leaet for complete usage inlormation.
+information
+contact a poison control center immediately.
+BAPY
+information.
+contact a poison control center immediatety.
+acid, synthetic red iron oxide, synthetic yellw iron oxide, tac. titanium dioxide and triactin.
+acid, synthetic red iron oxide, symthetic yellow iron oxide, talc, titanium dioxide and triacetin.
+man  da
+Distributed by: Granutec. Inc. Witson. N.C. 27896
+dioxide and triacetin
+acid. synthetic red lron axide, synthetic yllow iron axide S .0
+809954--860
+Made in Canada
+80955LA-5880
+201698
+S 0
+0994-V780
+READ CONSUMER LEAFLET BEFORE USE.
+Do not use if carton is open, or if printed fol seal under cap is broken or missing when purchased.",1.0,1.0,0.9,0.9,1.0,"Answer correctly identifies missing infant guidance in context, aligns with ground truth, and safely recommends consulting a doctor."
+I have a history of stomach ulcers and high blood pressure. Is it safe for me to take this maximum dose?,The label warns that NSAIDs like ibuprofen may cause stomach bleeding. Patients with a history of ulcers or high blood pressure must consult a doctor before use.,"The labeling for ibuprofen 200 mg tablets does not contain a specific statement about the safety of taking the maximum daily dose in patients who have a history of stomach ulcers or high‑blood‑pressure (hypertension).  
+
+What the label does say is that:
+
+* **Stomach irritation** can occur (mild heartburn, upset stomach, or stomach pain) and you should “consult a doctor if these symptoms are more than mild or if they persist” [Source: 74931_Ibuprofen_Prntlbl.pdf | Page 2‑4].  
+* **General medical conditions** that require prescription drugs, or a history of serious side‑effects from non‑prescription pain relievers, are a reason **not to take ibuprofen without first discussing it with a doctor** [Source: 74931_Ibuprofen_Prntlbl.pdf | Page 4‑5].
+
+Because a history of stomach ulcers and hypertension are both conditions that can be worsened by non‑steroidal anti‑inflammatory drugs (NSAIDs) such as ibuprofen, the product information advises you to **consult your physician before using this medication**, especially at the maximum dose.  
+
+**Therefore, the current prescribing information does not provide a definitive answer on safety for your specific conditions; you should discuss ibuprofen use and the appropriate dose with your healthcare provider.**","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+The smallest effective dose should be used. Take withfood or milk il occasional and mild heartbum, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+WARNINGS (CONTINUED)
+24 hours, unless directed by a doctor. The smallest effective dose  d o  d     n and mild heartburn, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
+WARNINGS: Do not take for pain for more than 10 days or for fever for more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swollen, consult a doctor. These could be signs of serious illness. If you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which requires you to take prescription drugs or if you have had any problems or serious side effects from taking any non-prescríption pain reliever, do not take Ibuprofen
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+DIRECTIONS: Adults: Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablet, 2 tablets may be used but do not exceed 6 tablets in 24 hours, unless directed by a doctor. The smallest effective dose should be used. , Take with food or milk if occasional and mild heartburn, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+WARNINGS: Do not take for pain for more than 10 days or for lever lor more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swoflen, consult a doctor. These could be signs of serious illness. It you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which réquires you to take prescriplion drugs or if you have had any problems or serious side effects from taking any nonprescription pain reliever, do not take Ibuprofen Tablets without first discussing it with your doctor.
+ALCOHOL WARNING: If you generally consume 3 or more ao ng s oik  d  oour physician for advice on when and how you should take BÚPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°℃ (104°F).
+Active Ingredient: Each lablet conlains Ibuprofen USP 200 mg.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+If you experience any symptoms which are unusual or se  n h  o en n ok ibuprofen, consult a doctor before laking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine seek the advice of a health professional before using this prOdUCt. IT IS ESPECIALLY IMPORTANT NOT TO USE PREGNANCY UMLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product with any other ibuprofen-containing product. As with any drug, if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY IMPORTANT NOT TO USE IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED.TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+ALCOHOL WARNING: If you generally Consume 3 or more alcohol-containing drinks per day, you should consult your physician for advice on when and how you should take IBUPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°C (104°F).
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+CONSUMER LABELING LEAFLET FOR IBUPROFEN TABLETS USP, 200 mg PLEASE SAVE THIS FOR FUTURE USE.
+Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.",1.0,1.0,1.0,1.0,1.0,"Accurately reflects context, cites correctly, and advises consulting a doctor based on label warnings."
+Can I take a couple of these caplets with a glass of wine to help me sleep off a headache?,The stomach bleeding warning states that combining NSAIDs with alcoholic drinks increases the risk of stomach bleeding. Users should consult a doctor.,"The prescribing information for these ibuprofen caplets includes an **Alcohol Warning** that says:
+
+*“If you generally consume 3 or more alcohol‑containing drinks per day, you should consult your physician for advice on when and how you should take ibuprofen and other pain relievers.”*【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5】
+
+The label does **not** state an absolute prohibition against taking ibuprofen with a single glass of wine, but it does advise you to talk with a health‑care professional if you regularly drink alcohol (≥ 3 drinks per day) before using ibuprofen. Additionally, you should follow the dosing directions (no more than 2 caplets per dose and no more than 6 caplets in 24 hours) and consider taking the medication with food or milk if you have any stomach upset【Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2】.
+
+**Bottom line:**  
+- If you only have an occasional glass of wine and do not regularly consume ≥ 3 drinks per day, the label does not forbid taking a caplet, but you should still use the smallest effective dose and consider taking it with food.  
+- If you regularly drink three or more alcoholic drinks per day, you should **consult your physician** before combining ibuprofen with alcohol.  
+
+Always follow the dosing instructions and seek medical advice if you have any underlying health conditions or concerns.","[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+ALCOHOL WARNING: If you generally consume 3 or more alcoholcontaining drinks per day, you should consult your physician for advice on when and how you should take IBUPROFEN and other pain relievers.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN Tablets, USP
+- 72 Coated Caplets*
+- Pain reliever / Fever reducer Pain Relief Formula
+200 mg each
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+WARNINGS: Do not take for pain for more than 10 days or for lever lor more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swoflen, consult a doctor. These could be signs of serious illness. It you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which réquires you to take prescriplion drugs or if you have had any problems or serious side effects from taking any nonprescription pain reliever, do not take Ibuprofen Tablets without first discussing it with your doctor.
+ALCOHOL WARNING: If you generally consume 3 or more ao ng s oik  d  oour physician for advice on when and how you should take BÚPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°℃ (104°F).
+Active Ingredient: Each lablet conlains Ibuprofen USP 200 mg.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN TABLETS, USP Pain Reliever / Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, sweiling, shock or hives, because even though this product contains no aspirin or saticylates cross-reactions may occur ia patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 caplet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 caplet, 2 caplets may be used but do not exceed 6 caplets
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product with any other ibuprofen-containing product. As with any drug, if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY IMPORTANT NOT TO USE IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED.TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.
+ALCOHOL WARNING: If you generally Consume 3 or more alcohol-containing drinks per day, you should consult your physician for advice on when and how you should take IBUPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°C (104°F).
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+DIRECTIONS: Adults: Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablet, 2 tablets may be used but do not exceed 6 tablets in 24 hours, unless directed by a doctor. The smallest effective dose should be used. , Take with food or milk if occasional and mild heartburn, upset stomach, or stomach pain occurs with use. Consult a doctor if these symptoms are more than mild or if they persist. Children: Do not give this product to children under 12 except under the advice and supervision of a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+WARNINGS (CONTINUED)
+Caplets"" (*capsule-shaped tablets) without first discussing it with your doctor. If you experience any symptoms which are unusual or seem unrelated to the condition for which you took ibuprofen, consult a doctor before taking any more of it. Although ibuprofen is indicated for the same conditions as aspirin and acetaminophen, it should not be taken with them except under a doctor's direction. Do not combine this product if you are pregnant or nursing a baby, seek the advice of a health professional before using this product. IT IS ESPECIALLY ÍMPORTANT NOT TO USÉ IBUPROFEN DURING THE LAST 3 MONTHS OF PREGNANCY UNLESS SPECIFICALLY DIRECTED TO DO SO BY A DOCTOR BECAUSE IT MAY CAUSE PROBLEMS IN THE UNBORN CHILD OR COMPLICATIONS DURING DELIVERY. Keep this and all drugs out of the reach of children. In case of accidental overdose, seek professional assistance or contact a poison control center immediately.",0.9,1.0,1.0,0.2,1.0,"Answer addresses question using context and cites correctly. Context lacks ground truth's stomach bleeding warning, lowering recall. Answer is well-grounded."
+Does the label state that this medication cures chronic joint arthritis permanently?,"No. The product is indicated for the temporary relief of minor aches and pains, not for permanently curing chronic conditions.",No. The label’s **INDICATIONS** section only describes ibuprofen tablets as a **temporary relief** for “the minor pain of arthritis” and does not claim a cure or permanent resolution of chronic joint arthritis. [Source: 74931_Ibuprofen_Prntlbl.pdf | Page 4],"[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. DO not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, swelřing, shock or hives, because even though this product contains no aspirin or salicylates cross-reactions may occur in patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache, toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+Ibuprofen Tablets, USP
+Pain reliever/Fever reducer Pain Relief Formula Ibuprofen Tablets, USP
+IBUPROFEN TABLETS, USP Pain Reliever /Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do nOt take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma. swelling. shock or hives. or salicylates cross-reactions may occur in patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches. backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablel, 2 tablets may be used but do nol exceed 6 tablets in 24 hours, unless directed by a doctor.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 3]
+Ibuprofen Tablets, USP
+Pain reliever/Fever reducer Pain Relief Formula
+1000 Coated Caplets* 200 mg each *Capsule-shaped tablets gredient:
+t
+Pron Keep this and aif drugs out of the reach of children. contact a poison control certer immedialety.
+POATANT: See consumer leaet for complete usage inlormation.
+information
+contact a poison control center immediately.
+BAPY
+information.
+contact a poison control center immediatety.
+acid, synthetic red iron oxide, synthetic yellw iron oxide, tac. titanium dioxide and triactin.
+acid, synthetic red iron oxide, symthetic yellow iron oxide, talc, titanium dioxide and triacetin.
+man  da
+Distributed by: Granutec. Inc. Witson. N.C. 27896
+dioxide and triacetin
+acid. synthetic red lron axide, synthetic yllow iron axide S .0
+809954--860
+Made in Canada
+80955LA-5880
+201698
+S 0
+0994-V780
+READ CONSUMER LEAFLET BEFORE USE.
+Do not use if carton is open, or if printed fol seal under cap is broken or missing when purchased.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+CONSUMER LABELING LEAFLET FOR IBUPROFEN TABLETS USP, 200 mg PLEASE SAVE THIS FOR FUTURE USE.
+Only selected information is contained on the bottle label. Therefore, you should keep this sheet for future reference.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 4]
+WARNINGS (CONTINUED)
+WARNINGS: Do not take for pain for more than 10 days or for lever lor more than 3 days unless directed by a doctor. If pain or fever persists or gets worse, if new symptoms occur, or if the painful area is red or swoflen, consult a doctor. These could be signs of serious illness. It you are under a doctor's care for any serious condition, consult a doctor before taking this product. As with aspirin and acetaminophen, if you have any condition which réquires you to take prescriplion drugs or if you have had any problems or serious side effects from taking any nonprescription pain reliever, do not take Ibuprofen Tablets without first discussing it with your doctor.
+ALCOHOL WARNING: If you generally consume 3 or more ao ng s oik  d  oour physician for advice on when and how you should take BÚPROFEN and other pain relievers.
+Store at room temperature. Avoid excessive heat 40°℃ (104°F).
+Active Ingredient: Each lablet conlains Ibuprofen USP 200 mg.
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 2]
+Pain Reliever / Fever Reducer
+Inactive Ingredients: colloidal silicon dioxide, croscarmellose sodium, hydroxypropyl methylcellulose, lactose monohydrate, maltodextrin, microcrystalline cellulose, polydextrose, polyethylene glycol, sodium lauryl sulfate, stearic acid, synthetic red iron WARNINGS: Do not take for pain for more than 10 oxide, synthetic yellow iron oxide, taíc, titanium diox-
+Granutec, Inc. Wilson, N.C. 27896
+Issued April 1997
+Sub. 00
+
+---
+
+[Source: 74931_Ibuprofen_Prntlbl.pdf | Page: 5]
+IBUPROFEN TABLETS, USP Pain Reliever / Fever Reducer
+WARNING: ASPIRIN SENSITIVE PATIENTS. Do not take this product if you have had a severe allergic reaction to aspirin, e.g. - asthma, sweiling, shock or hives, because even though this product contains no aspirin or saticylates cross-reactions may occur ia patients allergic to aspirin.
+INDICATIONS: For the temporary relief of minor aches and pains associated with the common cold, headache. toothache, muscular aches, backache, for the minor pain of arthritis, for the pain of menstrual cramps and for reduction of fever.
+DIRECTIONS: Adults: Take 1 caplet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 caplet, 2 caplets may be used but do not exceed 6 caplets",1.0,1.0,1.0,1.0,1.0,"The answer directly addresses the question, accurately cites the relevant context, and aligns perfectly with the ground truth."
